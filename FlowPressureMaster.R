@@ -15,8 +15,8 @@ library(tictoc)
 tic()
 
 # ### Connecting to csv
-cn_DCS <- read.csv("C:/Users/user/Desktop/Work/upload_Tbl_DCS_Raw.csv")
-cn_SCADA <- read.csv("C:/Users/user/Desktop/Work/upload_Tbl_SCADA_Raw.csv")
+cn_DCS <- read.csv("C:/Users/user/Desktop/Work/upload_Tbl_DCS_Raw.csv") # C:\Shane Excel Export HydroServices (location in SVC)
+cn_SCADA <- read.csv("C:/Users/user/Desktop/Work/upload_Tbl_SCADA_Raw.csv") # C:\Shane Excel Export HydroServices (location in SVC)
 
 # Seperate connection into dataframes
 df_DCS <- cn_DCS
